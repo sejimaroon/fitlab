@@ -11,5 +11,6 @@ export default defineConfig({
   preview: {
     host: '0.0.0.0',
     port: Number(process.env.PORT) || 5173,
+    allowedHosts: ['fitlab.onrender.com'], // ここを追加
   },
 });
